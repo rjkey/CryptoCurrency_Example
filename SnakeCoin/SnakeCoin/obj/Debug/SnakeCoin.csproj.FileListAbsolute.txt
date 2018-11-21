@@ -1,0 +1,7 @@
+D:\CryptoCurrency_Example\SnakeCoin\SnakeCoin\bin\Debug\SnakeCoin.exe.config
+D:\CryptoCurrency_Example\SnakeCoin\SnakeCoin\bin\Debug\SnakeCoin.exe
+D:\CryptoCurrency_Example\SnakeCoin\SnakeCoin\bin\Debug\SnakeCoin.pdb
+D:\CryptoCurrency_Example\SnakeCoin\SnakeCoin\obj\Debug\SnakeCoin.csprojAssemblyReference.cache
+D:\CryptoCurrency_Example\SnakeCoin\SnakeCoin\obj\Debug\SnakeCoin.csproj.CoreCompileInputs.cache
+D:\CryptoCurrency_Example\SnakeCoin\SnakeCoin\obj\Debug\SnakeCoin.exe
+D:\CryptoCurrency_Example\SnakeCoin\SnakeCoin\obj\Debug\SnakeCoin.pdb
