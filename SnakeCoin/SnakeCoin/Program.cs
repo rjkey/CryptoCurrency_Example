@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using SnakeCoin.BlockFactory;
 
 namespace SnakeCoin
@@ -13,7 +11,7 @@ namespace SnakeCoin
         private static int _numberOfBlocksToAdd = 20;
 
         static void Main(string[] args)
-        {        
+        {
             BlockFactory.BlockFactory factory = new ConcreteBlockFactory();
 
             IBlockFactory genesis = factory.GetBlock(BlockEnum.BlockTypes.GenesisBlock);
