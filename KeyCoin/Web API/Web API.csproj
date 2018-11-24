@@ -89,7 +89,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Model\Transaction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -101,7 +100,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\KeyCoin\KeyCoin.csproj">
+      <Project>{54d008e0-ea0c-40fc-ae32-47d432297e16}</Project>
+      <Name>KeyCoin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UtilityLibrary\UtilityLibrary.csproj">
+      <Project>{b8615e34-c18e-431e-8b29-425702c8c5f1}</Project>
+      <Name>UtilityLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

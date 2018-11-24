@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web API", "Web API\Web API.csproj", "{A259070C-891D-4AA1-BDAA-897BADDAAD2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyCoin", "KeyCoin\KeyCoin.csproj", "{54D008E0-EA0C-40FC-AE32-47D432297E16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyCoin", "KeyCoin\KeyCoin.csproj", "{54D008E0-EA0C-40FC-AE32-47D432297E16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityLibrary", "UtilityLibrary\UtilityLibrary.csproj", "{B8615E34-C18E-431E-8B29-425702C8C5F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{54D008E0-EA0C-40FC-AE32-47D432297E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54D008E0-EA0C-40FC-AE32-47D432297E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54D008E0-EA0C-40FC-AE32-47D432297E16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8615E34-C18E-431E-8B29-425702C8C5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8615E34-C18E-431E-8B29-425702C8C5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8615E34-C18E-431E-8B29-425702C8C5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8615E34-C18E-431E-8B29-425702C8C5F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

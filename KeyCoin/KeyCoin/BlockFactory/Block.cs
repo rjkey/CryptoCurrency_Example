@@ -1,12 +1,13 @@
 ﻿using System;
-using System.Text;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Security.Cryptography;
 
 namespace KeyCoin.BlockFactory
 {
-    class Block
+    public class Block
     {
-        public Block(int index, DateTime timestamp, string data, byte[] previousHash)
+        public Block(int index, DateTime timestamp, BlockData data, byte[] previousHash)
         {
             Index = index;
             Timestamp = timestamp;
@@ -19,7 +20,7 @@ namespace KeyCoin.BlockFactory
 
         public DateTime Timestamp { get; set; }
 
-        public string Data { get; set; }
+        public BlockData Data { get; set; }
 
         public byte[] PreviousHash { get; set; }
 
@@ -35,7 +36,8 @@ namespace KeyCoin.BlockFactory
                 byte[] timestamp_as_bytes = BitConverter.GetBytes(Timestamp.Ticks);
                 sha512.TransformBlock(timestamp_as_bytes, 0, timestamp_as_bytes.Length, timestamp_as_bytes, 0);
 
-                byte[] data_as_bytes = Encoding.UTF8.GetBytes(Data);
+                byte[] data_as_bytes = ObjectToByteArray(Data);
+
                 sha512.TransformBlock(data_as_bytes, 0, data_as_bytes.Length, data_as_bytes, 0);
 
                 sha512.TransformFinalBlock(PreviousHash, 0, PreviousHash.Length);
@@ -44,6 +46,18 @@ namespace KeyCoin.BlockFactory
 
                 return hash_of_block;
             }
+        }
+
+        private byte[] ObjectToByteArray(object obj)
+        {
+            if (obj == null)
+                return null;
+
+            BinaryFormatter bf = new BinaryFormatter();
+            MemoryStream ms = new MemoryStream();
+            bf.Serialize(ms, obj);
+
+            return ms.ToArray();
         }
     }
 }

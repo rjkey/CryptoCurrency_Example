@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Web;
 using System.Web.Http;
+using KeyCoin;
 using Web_API.Configuration;
 
 namespace Web_API
@@ -9,7 +10,8 @@ namespace Web_API
     {
         protected void Application_Start(object sender, EventArgs e)
         {
-            GlobalConfiguration.Configure(Config.Register);
+            GlobalConfiguration.Configure(Config.Register);  
+            StartUp.Start();
         }
 
         protected void Session_Start(object sender, EventArgs e)

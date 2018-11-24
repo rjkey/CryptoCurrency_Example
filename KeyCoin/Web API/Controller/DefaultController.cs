@@ -1,29 +1,31 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
-using Web_API.Model;
+using KeyCoin;
+using Newtonsoft.Json;
+using UtilityLibrary;
+using UtilityLibrary.Model;
 
 namespace Web_API.Controller
 {
     public class DefaultController : ApiController
     {
-        private List<Transaction> _transactions;
-
-        public DefaultController()
-        {
-            _transactions = new List<Transaction>();
-        }
-        //GET: api/default
+        //GET: /mine
+        [Route("mine")]
         [HttpGet]
         public string Get()
         {
-            return "Hello from DefaultController";
+            Mining mining = new Mining();
+            var minedBlock = mining.Mine();
+            string blockAsJson = JsonConvert.SerializeObject(minedBlock);
+            return blockAsJson;
         }
 
-        //POST: api/default
+        //POST: /transaction
+        [Route("transaction")]
         [HttpPost]
         public string Post([FromBody]Transaction value)
         {
-            _transactions.Add(value);
+            Transactions.AddTransaction(value);
             return "Transaction done";
         }
     }
