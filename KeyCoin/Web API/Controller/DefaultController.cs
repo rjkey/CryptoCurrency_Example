@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+﻿using System.Collections.Generic;
 using System.Web.Http;
-using Newtonsoft.Json;
 using Web_API.Model;
 
 namespace Web_API.Controller
@@ -18,16 +13,17 @@ namespace Web_API.Controller
             _transactions = new List<Transaction>();
         }
         //GET: api/default
+        [HttpGet]
         public string Get()
         {
             return "Hello from DefaultController";
         }
 
         //POST: api/default
-        public string Post(string value)
+        [HttpPost]
+        public string Post([FromBody]Transaction value)
         {
-            Transaction newTrans = JsonConvert.DeserializeObject<Transaction>(value);
-            _transactions.Add(newTrans);
+            _transactions.Add(value);
             return "Transaction done";
         }
     }
