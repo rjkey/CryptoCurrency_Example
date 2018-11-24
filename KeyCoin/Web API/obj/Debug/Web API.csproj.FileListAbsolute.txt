@@ -1,0 +1,64 @@
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\Web API.dll.config
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\Web API.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\Web API.pdb
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\csc.exe
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\csc.exe.config
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\csc.rsp
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\csi.exe
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\csi.exe.config
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\csi.rsp
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\Microsoft.Managed.Core.targets
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.AppContext.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.Collections.Immutable.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.Console.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.IO.Compression.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.IO.FileSystem.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.IO.Pipes.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.Reflection.Metadata.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.Security.AccessControl.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.Security.Claims.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.Security.Principal.Windows.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.ValueTuple.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.Xml.XmlDocument.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.Xml.XPath.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\vbc.exe
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\vbc.exe.config
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\vbc.rsp
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\VBCSCompiler.exe
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\roslyn\VBCSCompiler.exe.config
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CryptoCurrency_Example\KeyCoin\Web API\obj\Debug\Web API.csprojAssemblyReference.cache
+D:\CryptoCurrency_Example\KeyCoin\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+D:\CryptoCurrency_Example\KeyCoin\Web API\obj\Debug\Web API.csproj.CopyComplete
+D:\CryptoCurrency_Example\KeyCoin\Web API\obj\Debug\Web API.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\obj\Debug\Web API.pdb
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\Newtonsoft.Json.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\System.Net.Http.Formatting.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\System.Web.Http.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\System.Web.Http.WebHost.dll
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\Newtonsoft.Json.xml
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\System.Net.Http.Formatting.xml
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\System.Web.Http.xml
+D:\CryptoCurrency_Example\KeyCoin\Web API\bin\System.Web.Http.WebHost.xml

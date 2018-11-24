@@ -1,0 +1,9 @@
+D:\CryptoCurrency_Example\KeyCoin\KeyCoin\bin\Debug\netstandard2.0\KeyCoin.deps.json
+D:\CryptoCurrency_Example\KeyCoin\KeyCoin\bin\Debug\netstandard2.0\KeyCoin.dll
+D:\CryptoCurrency_Example\KeyCoin\KeyCoin\bin\Debug\netstandard2.0\KeyCoin.pdb
+D:\CryptoCurrency_Example\KeyCoin\KeyCoin\obj\Debug\netstandard2.0\KeyCoin.csprojAssemblyReference.cache
+D:\CryptoCurrency_Example\KeyCoin\KeyCoin\obj\Debug\netstandard2.0\KeyCoin.csproj.CoreCompileInputs.cache
+D:\CryptoCurrency_Example\KeyCoin\KeyCoin\obj\Debug\netstandard2.0\KeyCoin.AssemblyInfoInputs.cache
+D:\CryptoCurrency_Example\KeyCoin\KeyCoin\obj\Debug\netstandard2.0\KeyCoin.AssemblyInfo.cs
+D:\CryptoCurrency_Example\KeyCoin\KeyCoin\obj\Debug\netstandard2.0\KeyCoin.dll
+D:\CryptoCurrency_Example\KeyCoin\KeyCoin\obj\Debug\netstandard2.0\KeyCoin.pdb
